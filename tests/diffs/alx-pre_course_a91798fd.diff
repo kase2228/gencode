@@ -1,0 +1,21 @@
+commit a91798fd3aa33a4d354e7ddf63429023abf0ca94
+
+Starting to code today, so cool
+
+
+diff --git a/0x01-git/bash/alx b/0x01-git/bash/alx
+new file mode 100644
+index 0000000..f144a8d
+--- /dev/null
++++ b/0x01-git/bash/alx
+@@ -0,0 +1,2 @@
++#!/bin/bash
++echo "ALX"
+diff --git a/0x01-git/bash/school b/0x01-git/bash/school
+new file mode 100644
+index 0000000..8929203
+--- /dev/null
++++ b/0x01-git/bash/school
+@@ -0,0 +1,2 @@
++#!/bin/bash
++echo "School"

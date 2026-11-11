@@ -1,0 +1,19 @@
+commit 175dc9442a8bf5a6845d3cc83b7373446f0fc19c
+
+Hot fix
+
+
+diff --git a/0x03-git/bash/alx b/0x03-git/bash/alx
+index f144a8d..eaa5489 100644
+--- a/0x03-git/bash/alx
++++ b/0x03-git/bash/alx
+@@ -1,2 +1,2 @@
+ #!/bin/bash
+-echo "ALX"
++echo "ALX School is so cool!"
+diff --git a/0x03-git/js/index.js b/0x03-git/js/index.js
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/0x03-git/js/main.js b/0x03-git/js/main.js
+deleted file mode 100644
+index e69de29..0000000

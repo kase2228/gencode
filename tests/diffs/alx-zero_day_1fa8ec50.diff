@@ -1,0 +1,24 @@
+commit 1fa8ec503dbe11c32ea37ce47ec6c04ce10b0add
+
+My personal work
+
+
+diff --git a/0x03-git/bash/98 b/0x03-git/bash/98
+new file mode 100644
+index 0000000..e69de29
+diff --git a/0x03-git/bash/alx b/0x03-git/bash/alx
+index f144a8d..e886f77 100644
+--- a/0x03-git/bash/alx
++++ b/0x03-git/bash/alx
+@@ -1,2 +1,2 @@
+ #!/bin/bash
+-echo "ALX"
++echo "ALX School"
+diff --git a/0x03-git/bash/school b/0x03-git/bash/school
+index 8929203..c82580c 100644
+--- a/0x03-git/bash/school
++++ b/0x03-git/bash/school
+@@ -1,2 +1,2 @@
+ #!/bin/bash
+-echo "School"
++echo "The school is open!"

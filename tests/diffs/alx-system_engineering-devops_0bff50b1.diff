@@ -1,0 +1,15 @@
+commit 0bff50b176124bd486bc7265c98c8c8eb2d494de
+
+readme file
+
+
+diff --git a/0x19-postmortem/README.md b/0x19-postmortem/README.md
+new file mode 100644
+index 0000000..6cb5632
+--- /dev/null
++++ b/0x19-postmortem/README.md
+@@ -0,0 +1,4 @@
++Imagine you're throwing a party, and suddenly the entire town shows up—unexpected, overwhelming, and suddenly, you’re out of everything! That's exactly what happened to our web app on August 21, 2024, from 02:15 AM to 03:45 AM UTC. Our normally calm and composed site found itself flooded with visitors, way more than it could handle. Users were greeted with "500 Internal Server Error" messages, turning our website into a digital ghost town for 1 hour and 30 minutes. The culprit? An uninvited surge of traffic that overloaded our database connection pool, making it impossible to process queries. Our app couldn’t manage the unexpected guests, and chaos ensued.
++So, here’s how it all went down: At 02:15 AM, our monitoring systems started yelling, “Help! We’re drowning in database connection failures!” The on-call engineer, half-asleep, jumped into action at 02:17 AM, suspecting the database had taken a nosedive. By 02:25 AM, they were deep-diving into the database logs like Sherlock Holmes searching for clues, but the database seemed innocent. At 02:35 AM, thinking it might be a network issue, they went on a wild goose chase that led nowhere. By 02:50 AM, we called in the database team for backup—like the cavalry arriving to save the day. They quickly realised that the connection pool was maxed out due to the traffic surge. At 03:20 AM, they expanded the connection pool and added a rate limiter to keep things under control. By 03:45 AM, order was restored, the website was back up, and the digital party resumed with everyone happy once more.
++So, what exactly went wrong? Our site got an unexpected flood of traffic, which maxed out the database connections, leaving our app gasping for breath. The fix? We upgraded the database connection pool to handle more traffic and added a rate limiter to keep future surges from overwhelming the system. Think of it like reinforcing the party venue and hiring bouncers to manage the crowd.
++To make sure our next party doesn’t get out of hand, we’re doing a few things differently: First, we’re expanding the venue—meaning, we’re increasing the connection pool size. More guests? No problem! We’re also introducing connection pool monitoring to keep a close eye on the crowd so we know when things start getting packed. If the connection pool starts getting too cosy, our team will get a heads-up with automated alerts before things get out of control. And finally, we’ll be stress-testing our bouncers—uh, rate limiter—under different scenarios to ensure they can handle whatever comes our way.

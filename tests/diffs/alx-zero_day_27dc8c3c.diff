@@ -1,0 +1,12 @@
+commit 27dc8c3c1ced66724965b924104f4b2246973ac4
+
+How to be up to date in git
+
+
+diff --git a/0x03-git/up_to_date b/0x03-git/up_to_date
+new file mode 100644
+index 0000000..d0aed61
+--- /dev/null
++++ b/0x03-git/up_to_date
+@@ -0,0 +1 @@
++git pull

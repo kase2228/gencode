@@ -1,0 +1,22 @@
+commit 135cce7a8858184faca78dcab46cfa5517cbb24e
+
+ignore
+
+
+diff --git a/0x03-git/.gitignore b/0x03-git/.gitignore
+new file mode 100644
+index 0000000..54bcf30
+--- /dev/null
++++ b/0x03-git/.gitignore
+@@ -0,0 +1 @@
++~
+diff --git a/0x03-git/bash/.gitignore b/0x03-git/bash/.gitignore
+new file mode 100644
+index 0000000..e69de29
+diff --git a/0x03-git/bash/.gitigonre b/0x03-git/bash/.gitigonre
+new file mode 100644
+index 0000000..54bcf30
+--- /dev/null
++++ b/0x03-git/bash/.gitigonre
+@@ -0,0 +1 @@
++~

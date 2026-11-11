@@ -1,0 +1,15 @@
+commit 4fce54667a330bbf0c620fb14b7f4243356fbb99
+
+merged
+
+
+diff --git a/0x03-git/bash/alx b/0x03-git/bash/alx
+index d5dbe46..012b6e6 100644
+--- a/0x03-git/bash/alx
++++ b/0x03-git/bash/alx
+@@ -1,3 +1,2 @@
+-
+-echo "ALX School"
+->>>>>>> update_script
++#!/bin/bash
++echo "ALX School

@@ -1,0 +1,30 @@
+commit a31e23e922dd46a4d9c6206f1359637b0fc89017
+
+Starting to code today, so cool
+
+
+diff --git a/0x03-git/bash/alx b/0x03-git/bash/alx
+new file mode 100644
+index 0000000..f144a8d
+--- /dev/null
++++ b/0x03-git/bash/alx
+@@ -0,0 +1,2 @@
++#!/bin/bash
++echo "ALX"
+diff --git a/0x03-git/bash/school b/0x03-git/bash/school
+new file mode 100644
+index 0000000..8929203
+--- /dev/null
++++ b/0x03-git/bash/school
+@@ -0,0 +1,2 @@
++#!/bin/bash
++echo "School"
+diff --git a/0x03-git/c/c_is_fun.c b/0x03-git/c/c_is_fun.c
+new file mode 100644
+index 0000000..e69de29
+diff --git a/0x03-git/js/index.js b/0x03-git/js/index.js
+new file mode 100644
+index 0000000..e69de29
+diff --git a/0x03-git/js/main.js b/0x03-git/js/main.js
+new file mode 100644
+index 0000000..e69de29
